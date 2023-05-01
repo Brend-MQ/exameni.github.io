@@ -23,11 +23,32 @@ body {
 /* Estilos para el encabezado */
 header {
     width: 100%;
-    background-color: #f2f2f2;
+    color: white;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
-
+.f-1{
+    position: absolute;
+    top: -100px;
+    z-index: -2;
+    background-color: #317A8B;
+    width: 300px;
+    left: 100px;
+    transform: rotate(-50deg);
+    padding: 20px;
+    height: 300px;
+}
+.f-2{
+    position: absolute;
+    top: -10px;
+    z-index: -2;
+    background-color: #4FC8DC;
+    width: 350px;
+    left: 410px;
+    transform: rotate(-52deg);
+    padding: 20px;
+    height: 300px;
+}
 header h1 {
     font-size: 36px;
     margin: 0;
@@ -97,7 +118,10 @@ aside .opcines  #btn-a{
     font-size: large;
   }
 /* main */
-
+main{
+background-color: white;
+padding-top: 20px;
+}
 .listas-op{
     margin-left: 40px;
 }
