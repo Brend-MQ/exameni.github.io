@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   color: white;
+}
+
+header{
+   position: absolute;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin:35px 0px;
+}
+.header{
+   width: 85%;
+   display: flex;
+   justify-content: space-between;
+}
+header .opc li{
+   margin-left: 20px;
+   display: inline-block;
+   list-style: none;
+   color: white;
+}
+.img-p{
+   width: 530px;
+}
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+main .peake{
+   position: absolute;
+   top: 15%;
+   width: 53%;
+   display: flex;
+   justify-content: center;
+}
+main .peake .head-s .dates{
+   display: flex;
+}
+main .peake .dates .p{
+   color: rgba(228, 228, 228, 0.518);
+   font-weight: bolder;
+   margin-right: 20px;
+
+}
+main .peake .clasi{
+   padding:0px 10px 0px 10px;
+   background-color: red;
+}
+main .body-s{
+   margin-top: 10px;
+   text-align: justify;
+   width: 500px;
+}
+main .footer-s .play{
+   background-color: red;
+}
+main .footer-s .mylist{
+   margin-left: 10px;
+   background-color: rgba(0, 0, 0, 0.586);
+  
+}
+main .footer-s .btn {
+   font-family: sans-serif;
+   margin-top: 10px;
+   border: 0;
+   padding: 5px 15px ;
+}  
